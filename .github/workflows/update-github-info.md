@@ -25,6 +25,9 @@ engine:
 # Update Mona's GitHub Info website
 
 Read `notes/mona-notes.md` before making changes.
+Do not automatically compile this workflow or regenerate its `.lock.yml` during
+routine edits. Only update this Markdown source unless the user explicitly asks
+for compilation.
 
 Use these sources:
 - `notes/mona-notes.md`
