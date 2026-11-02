@@ -1,7 +1,4 @@
 ---
-## Rules
-- Do not auto-compile workflow.
-- Do not automatically compile the workflow file.
 name: update-github-info
 description: Draft website updates for Mona's GitHub Info site from official GitHub sources.
 on:
@@ -21,11 +18,15 @@ network:
     - github.com
     - github.blog
 engine:
-   id: copilot
-   copilot-sdk: true
+  id: copilot
+  copilot-sdk: true
 ---
 
 # Update Mona's GitHub Info website
+
+## Rules
+- Do not auto-compile workflow.
+- Do not automatically compile the workflow file.
 
 Read `notes/mona-notes.md` before making changes.
 Do not automatically compile this workflow or regenerate its `.lock.yml` during
