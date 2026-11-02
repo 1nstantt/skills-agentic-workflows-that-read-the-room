@@ -1,4 +1,7 @@
 ---
+## Rules
+- Do not auto-compile workflow.
+- Do not automatically compile the workflow file.
 name: update-github-info
 description: Draft website updates for Mona's GitHub Info site from official GitHub sources.
 on:
